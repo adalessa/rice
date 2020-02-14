@@ -67,8 +67,9 @@ Plug 'vimwiki/vimwiki'
 Plug 'freitass/todo.txt-vim'
 
 Plug 'mxw/vim-jsx'
+
 " Themes
-Plug 'arcticicestudio/nord-vim'
+Plug 'dylnmc/novum.vim'
 
 call plug#end()
 
@@ -84,7 +85,7 @@ set undofile
 set number
 set relativenumber
 
-colorscheme zellner
+colorscheme novum
 
 set tabstop=4
 set shiftwidth=4
