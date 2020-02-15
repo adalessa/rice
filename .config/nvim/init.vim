@@ -56,8 +56,9 @@ Plug 'jwalton512/vim-blade'
 " Status Bar
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'nathanaelkane/vim-indent-guides' 
 
-" Tab Bar
+" TagBar
 Plug 'majutsushi/tagbar'
 
 " Completition Server
@@ -211,7 +212,8 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:airline_powerline_fonts=1
 let g:airline_theme='base16_default'
 let g:airline#extensions#branch#enabled = 1
-set laststatus=1
+let g:airline#extensions#tabline#enabled = 1
+" set laststatus=1
 
 " COC
 
@@ -409,3 +411,10 @@ noremap <Leader>ff :execute('Ack <cword>')<CR>
 let g:vim_php_refactoring_make_setter_fluent = 1
 
 nmap <Leader>2 :TagbarToggle<CR>
+
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_auto_colors = 0
+let g:indent_guides_guide_size=1
+let g:indent_guides_start_level=2
+hi IndentGuidesOdd  ctermbg=black
+hi IndentGuidesEven ctermbg=darkgrey

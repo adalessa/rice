@@ -41,4 +41,4 @@ bspc rule -a Sxiv state=floating follow=on
 bspc rule -a XenonTrade stat=floating desktop='^6'
 bspc rule -a Ripcord desktop='^3'
 bspc rule -a TelegramDesktop desktop='^3'
-bspc rule -a Emacs desktop='^4' state=tiled
+bspc rule -a ide desktop='^4' state=tiled
