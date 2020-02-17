@@ -37,6 +37,8 @@ Plug 'adoy/vim-php-refactoring-toolbox'
 
 Plug 'mileszs/ack.vim'
 
+Plug 'markonm/traces.vim'
+
 " Laravel
 Plug 'tpope/vim-dispatch'             "| Optional
 Plug 'tpope/vim-projectionist'        "|
