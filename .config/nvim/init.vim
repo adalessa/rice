@@ -420,3 +420,7 @@ let g:indent_guides_guide_size=1
 let g:indent_guides_start_level=2
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
+
+" forward and backward search of current word
+nnoremap * /\<<C-R>=expand('<cword>')<CR>\><CR>
+nnoremap # ?\<<C-R>=expand('<cword>')<CR>\><CR>
